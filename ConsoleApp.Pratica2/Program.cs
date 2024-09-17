@@ -11,6 +11,10 @@ class Program
     {
         Console.Clear();
         PraticaComArrays pratica = new();
-        pratica.Exercicio1();
+        // PraticaComArrays.Exercicio1();
+        // PraticaComArrays.Exercicio2();
+
+        PraticaComFilasBoxing praticaComFilasBoxing = new PraticaComFilasBoxing();
+        praticaComFilasBoxing.ExercicioBoxingfilas();
     }
 }
